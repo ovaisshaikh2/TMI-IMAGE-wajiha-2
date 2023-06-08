@@ -1,20 +1,10 @@
-@font-face {
-  /* font-family: "Futura";
-  src: url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff2")
-      format("woff2"),
-    url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.woff")
-      format("woff"),
-    url("https://fonts.cdn.example.com/ClassicFonts/Futura-Book/Futura-Book.ttf")
-      format("truetype");
-  font-weight: normal;
-  font-style: normal; */
-
-  font-family: "Gilroy-Bold", sans-serif;
-  src: url("https://fonts.cdnfonts.com/css/gilroy-bold");
-}
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
 main {
-  font-family: "Futura", sans-serif;
+  /* font-family: "Futura", sans-serif; */
+  font-family: "Jost", sans-serif;
+  /* font-family: 'Kumbh Sans', sans-serif; */
 }
 nav {
   font-family: "Gilroy-Bold", sans-serif;
@@ -28,7 +18,7 @@ nav {
   position: relative;
   color: white;
 }
-.hover-underline-animations{
+.hover-underline-animations {
   display: inline-block;
   position: relative;
   color: black;
@@ -47,7 +37,7 @@ nav {
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.hover-underline-animations2:after{
+.hover-underline-animations2:after {
   content: "";
   position: absolute;
   width: 100%;

@@ -30,8 +30,8 @@ const Third = (props) => {
         {/* 2 */}
         <div className="md:flex  md:justify-center mt-8 sx:hidden lg:gap-16 sf:grid sf:grid-cols-2">
           {/* @1 */}
-          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full    sf:col-span-1 sf:mx-2 sf:w-auto  lg:mx-0 md:mx-6 imageZoom">
-            <div className="bg-[#D9D9D9] w-full h-1/2 border border-b-[#707070]">
+          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full    sf:col-span-1 sf:mx-2 sf:w-auto  lg:mx-0 md:mx-6 imageZoom pb-4">
+            <div className="bg-[#e1e1e1] w-full h-1/2 border border-b-[#707070]">
               <img
                 className=" w-full xsm:px-8 xsm:pt-8 lg:px-6 lg:pt-6 xm:h-[134%] xsm:h-[140%] lg:h-[122%]   sf:px-4 sf:pt-4 smm:px-8 smm:pt-8 smm:h-[140%] md:px-4 md:pt-4 md:h-[130%]    "
                 src={vision}
@@ -40,7 +40,7 @@ const Third = (props) => {
             </div>
             <div className="text-center xm:mx-10 lg:mx-2 h-1/2   sf:mx-3">
               <div className="relative xm:top-[47%] lg:top-[26%] sf:top-[35%] se:top-[40%] sh:top-[43%] sw:top-[48%] md:top-[33%]">
-                <h1 className="xll:text-2xl lg:text-2xl font-medium sf:text-2xl">
+                <h1 className="xll:text-2xl lg:text-2xl font-medium sf:text-2xl mb-4">
                   Vision
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
@@ -51,8 +51,8 @@ const Third = (props) => {
             </div>
           </div>
           {/* @2 */}
-          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full    sf:col-span-1 sf:mx-2 sf:w-auto lg:mx-0 md:mx-6 imageZoom">
-            <div className="bg-[#D9D9D9] w-full h-1/2 border border-b-[#707070]">
+          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full    sf:col-span-1 sf:mx-2 sf:w-auto lg:mx-0 md:mx-6 imageZoom pb-4">
+            <div className="bg-[#e1e1e1] w-full h-1/2 border border-b-[#707070]">
               <img
                 className=" w-full xsm:px-8 xsm:pt-8 lg:px-6 lg:pt-6 xm:h-[134%] xsm:h-[140%] lg:h-[122%]   sf:px-4 sf:pt-4 smm:px-8 smm:pt-8 smm:h-[140%] md:px-4 md:pt-4 md:h-[130%]"
                 src={mission}
@@ -61,7 +61,7 @@ const Third = (props) => {
             </div>
             <div className="text-center xm:mx-10 lg:mx-2 h-1/2   sf:mx-3">
               <div className="relative xm:top-[47%] lg:top-[26%]  sf:top-[35%] se:top-[40%] sh:top-[43%] sw:top-[48%] md:top-[33%]">
-                <h1 className="xll:text-2xl lg:text-2xl font-medium sf:text-2xl">
+                <h1 className="xll:text-2xl lg:text-2xl font-medium sf:text-2xl mb-4">
                   Mission
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
@@ -72,8 +72,8 @@ const Third = (props) => {
             </div>
           </div>
           {/* @3 */}
-          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full sf:col-span-2   sf:mx-32 sw:mx-44 sf:w-auto  lg:mx-0  sf:mt-4  md:mt-0 md:col-span-1 md:mx-6 imageZoom">
-            <div className="bg-[#D9D9D9] w-full h-1/2 border border-b-[#707070]">
+          <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full sf:col-span-2   sf:mx-32 sw:mx-44 sf:w-auto  lg:mx-0  sf:mt-4  md:mt-0 md:col-span-1 md:mx-6 imageZoom pb-4">
+            <div className="bg-[#e1e1e1] w-full h-1/2 border border-b-[#707070]">
               <img
                 className=" w-full xsm:px-8 xsm:pt-8 lg:px-6 lg:pt-6 xm:h-[134%] xsm:h-[140%] lg:h-[122%]   sf:px-4 sf:pt-4 sf:h-[145%] smm:px-8 smm:pt-8 md:px-4 md:pt-4 md:h-[130%]"
                 src={coreValue}
@@ -82,7 +82,7 @@ const Third = (props) => {
             </div>
             <div className="text-center xm:mx-10 lg:mx-2 h-1/2   sf:mx-3">
               <div className="relative xm:top-[47%] lg:top-[26%] sf:top-[50%] md:top-[33%]">
-                <h1 className="xll:text-2xl lg:text-xl font-medium sf:text-2xl">
+                <h1 className="xll:text-2xl lg:text-xl font-medium sf:text-2xl mb-4">
                   Core Values
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
