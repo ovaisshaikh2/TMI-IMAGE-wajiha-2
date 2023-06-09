@@ -41,8 +41,8 @@ const Fourth = (props) => {
               <h1 className="bg-black text-white uppercase lg:text-5xl xl:text-6xl lg:p-6 xs:p-2 xs:text-xl lg:block pl-8 xs:w-3/4">
                 Life at image
               </h1>
-              <div className="bg-[#EBEBEB] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 w-[89%] x2l:p-12 x2l:px-[3.5rem] ">
-                <p className="text-[#454343] lg:text-base mb-4 font-medium xs:text-[.8rem]">
+              <div className="bg-[#f9f9f9] xs:p-4 lg:p-12 xm:p-16 xm:px-20 xl:p-12 w-[89%] x2l:p-12 x2l:px-[3.5rem] ">
+                <p className="text-[#454343] lg:text-base mb-4 font-light xs:text-[.8rem]">
                   Join our family of enthusiasts where individuals are polished
                   to have a promising growth and excellence in their future
                   endeavors.
