@@ -6,6 +6,7 @@ const Journey = () => {
     <React.Fragment>
       <section>
         {/* 1 */}
+        {/* 1 */}
         <div
           className="relative inline-block xs:h-[10rem] lg:h-auto"
           data-aos="fade-up"

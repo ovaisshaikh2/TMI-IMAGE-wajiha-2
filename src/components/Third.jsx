@@ -51,6 +51,7 @@ const Third = (props) => {
             </div>
           </div>
           {/* @2 */}
+          {/* @2 */}
           <div className="border border-[#707070] h-auto md:w-[25%] xs:w-full    sf:col-span-1 sf:mx-2 sf:w-auto lg:mx-0 md:mx-6 imageZoom pb-4">
             <div className="bg-[#e1e1e1] w-full h-1/2 border border-b-[#707070]">
               <img
