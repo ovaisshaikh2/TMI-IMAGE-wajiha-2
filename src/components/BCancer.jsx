@@ -85,7 +85,6 @@ const BCancer = () => {
     D13,
     D10,
 
-
     // D16,
     D17,
     // D18,
@@ -117,22 +116,22 @@ const BCancer = () => {
     D41,
     D42,
 
-    D44,
-    D30,
+    //D44,
+    //D30,
 
-    D35,
+    //D35,
     // D28,
-    D29,
+    //D29,
 
-    D31,
+    //D31,
     // D32,
     // D33,
     // D34,
 
     // D36,
 
-    D37,
-    D38,
+    //D37,
+    //D38,
     // D40,
     // D41,
     // D42,
@@ -140,35 +139,30 @@ const BCancer = () => {
     // D45,
 
     // D48,
-  
+
     D53,
-    D54,
-    D55,
+    //D54,
+    //D55,
 
     // D60,
-    D61,
+    //D61,
     // D65,
-    D62,
-    D63,
+    //D62,
+    //D63,
 
-
-    D67,
-
+    //D67,
 
     // D33,
     // D34,
     // D57, D60,
 
-
-
     // D6,
-    D11,
+    //D11,
 
-    D39,
+    //D39,
     D64,
     D66,
     D68,
-
   ];
 
   const handleImageClick = (src, index) => {
@@ -223,7 +217,11 @@ const BCancer = () => {
             <i class="fa-solid fa-arrow-left"></i>
           </button>
           <div className="relative lg:mx-20 lg:h-[95%]">
-            <img src={modalImageSrc} alt="designerRetreat" />
+            <img
+              className="xm:h-[100vh]"
+              src={modalImageSrc}
+              alt="designerRetreat"
+            />
           </div>
           <button
             className="absolute top-1/2 right-0 px-4 py-[.7rem] transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 rounded-[50%] text-black z-70"

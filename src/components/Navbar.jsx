@@ -774,7 +774,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
           }`}
         >
           <div className="flex justify-between items-center mb-10">
-            <h1 className="capitalize text-center text-xl font-semibold text-[#475569]">
+            <h1 className="capitalize text-center text-xl font-light">
               Search our site
             </h1>
             <button

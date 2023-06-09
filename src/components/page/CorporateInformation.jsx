@@ -19,7 +19,7 @@ const CorporateInformation = () => {
         </p>
 
         <h6 className="text-black font-semibold my-2 mt-8">Head Office:</h6>
-        <p className="text-sm flex items-center xs:gap-4 lg:gap-2 py-2">
+        <p className="text-sm flex items-center xs:gap-4 lg:gap-2 pb-2">
           <i className="fa fa-address-card"></i>
           <span>
             <strong>Address:</strong> A/33, Central Commercial Area, Block 7/8,

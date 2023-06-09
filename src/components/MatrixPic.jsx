@@ -65,7 +65,11 @@ const MatrixPic = () => {
             <i class="fa-solid fa-arrow-left"></i>
           </button>
           <div className="relative lg:mx-20 lg:h-[95%]">
-            <img src={modalImageSrc} alt="designerRetreat" />
+            <img
+              className="xm:h-[100vh]"
+              src={modalImageSrc}
+              alt="designerRetreat"
+            />
           </div>
           <button
             className="absolute top-1/2 right-0 px-4 py-[.7rem] transform -translate-y-1/2 bg-white bg-opacity-50 hover:bg-opacity-75 rounded-[50%] text-black z-70"

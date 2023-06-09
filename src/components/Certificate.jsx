@@ -1,5 +1,5 @@
 import React from "react";
-import certificate from "../assets/certificate.png";
+import certificate from "../assets/certificate.jpg";
 
 const Certificate = () => {
   return (

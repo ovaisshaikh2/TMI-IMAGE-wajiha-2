@@ -13,7 +13,7 @@ const FinancialReports = () => {
               Annual Reports 2022
               <a
                 className="text-black ml-4 text-xs hover:underline font-semibold"
-                href={AnnualReport2022}
+                href="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/Annual-Report-2022_compressed.pdf?v=1686312147"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -178,7 +178,7 @@ const FinancialReports = () => {
               </a>
             </li>
             <li className="py-1">
-              Third Quarte 2019
+              Third Quarter 2019
               <a
                 className="text-black ml-4 text-xs hover:underline font-semibold"
                 href="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/TQ19.pdf?v=1683549281"
@@ -200,7 +200,7 @@ const FinancialReports = () => {
               </a>
             </li>
             <li className="py-1">
-              Third Quarte 2018
+              Third Quarter 2018
               <a
                 className="text-black ml-4 text-xs hover:underline font-semibold"
                 href="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/TQ18.pdf?v=1683549368"
@@ -222,7 +222,7 @@ const FinancialReports = () => {
               </a>
             </li>
             <li className="py-1">
-              Third Quarte 2017
+              Third Quarter 2017
               <a
                 className="text-black ml-4 text-xs hover:underline font-semibold"
                 href="https://cdn.shopify.com/s/files/1/0689/7349/4550/files/TQ17.pdf?v=1683549440"

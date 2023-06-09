@@ -92,12 +92,19 @@
 /* ---------------------------------------------------- */
 /* @-mobile drawer */
 .Drawer__Container-Search {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.59);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
   padding: 20px;
   top: 0px;
   right: 0px;
   height: 100%;
   /* width: 80%; */
-  background-color: #f8fafc;
+  /* background-color: #f8fafc; */
   transition: all 0.3s ease-in-out;
   transform: translate(110%);
   position: fixed;
