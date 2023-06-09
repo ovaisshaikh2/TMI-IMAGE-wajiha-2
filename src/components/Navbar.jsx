@@ -430,7 +430,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
   };
 
   return (
-    <div className="relative">
+    <div className="relative logomain">
       {/* logo  [768] */}
       <div className="flex justify-center -mt-[2rem] -mb-[.9rem] xs:hidden md:flex">
         <li
