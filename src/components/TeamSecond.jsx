@@ -241,7 +241,7 @@ const TeamSecond = () => {
               <strong>Designing Experience:</strong> 2-4 years of experience in
               relevant field.
               <br />
-              <strong>Skills:</strong> Networking, Trouble Shooting, Software,
+              <strong>Skills:</strong> Networking, Troubleshooting, Software,
               and Hardware installation.
             </p>
           )}

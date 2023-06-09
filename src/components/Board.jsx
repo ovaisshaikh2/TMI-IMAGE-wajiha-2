@@ -11,7 +11,7 @@ const Board = () => {
         <div className="relative overflow-x-auto">
           <table className="w-full xs:text-[10px] lg:text-xs text-left text-gray-500 border-2 border-gray-100">
             <thead className="border-b-2 border-gray-100 bg-gray-50">
-              <th className="xs:px-2 lg:px-6 py-3 w-1/3 border-r-2 border-gray-100 font-normal">
+              <th className="xs:px-2 lg:px-6 py-3 w-1/3 border-r-2 border-gray-100 font-medium">
                 S. Hussam Subzwari
               </th>
               <th className="xs:px-2 lg:px-6 py-3 w-2/3 font-normal">
