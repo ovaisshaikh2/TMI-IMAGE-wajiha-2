@@ -66,6 +66,22 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
       link: "/investor-relation/corporate-information",
       file: "URL",
     },
+    //About
+    {
+      name: "About Us",
+      link: "/about-us",
+      file: "URL",
+    },
+    {
+      name: "Vision and Mission",
+      link: "/about-us#vision-and-mission",
+      file: "URL",
+    },
+    {
+      name: "Board of Directors",
+      link: "/about-us#board-of-directors",
+      file: "URL",
+    },
     // Corporate information
     {
       name: "Head Office Address",
