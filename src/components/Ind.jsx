@@ -465,9 +465,9 @@ const Ind = () => {
     D229,
     // D225,
 
-    D226,
-    D227,
-    D228,
+    //D226,
+    //D227,
+    //D228,
   ];
 
   const handleImageClick = (src, index) => {

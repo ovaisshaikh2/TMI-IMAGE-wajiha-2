@@ -59,13 +59,7 @@ const ContactUs = () => {
           </div> */}
         </div>
         {/* 2 */}
-        <div
-          className="lg:absolute right-0 top-12 left-[45%]"
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="800"
-        >
+        <div className="lg:absolute right-0 top-12 left-[45%]">
           <img className="lg:w-[90%]" src={imageContact} alt="contactphoto" />
         </div>
       </section>

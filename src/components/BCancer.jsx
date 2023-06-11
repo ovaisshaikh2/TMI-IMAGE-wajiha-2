@@ -160,9 +160,9 @@ const BCancer = () => {
     //D11,
 
     //D39,
-    D64,
-    D66,
-    D68,
+    //D64,
+    //D66,
+    //D68,
   ];
 
   const handleImageClick = (src, index) => {

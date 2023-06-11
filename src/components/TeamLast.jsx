@@ -10,14 +10,7 @@ const TeamLast = () => {
       <section className="md:mx-5 xl:mx-40 md:mb-20 xs:my-10">
         {/* @1 */}
         <div className="grid md:grid-cols-2  xs:mx-4 md:mx-0">
-          <img
-            src={buddy}
-            alt="buddy_program"
-            data-aos="fade-right"
-            // data-aos-offset="500"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-sine"
-          />
+          <img src={buddy} alt="buddy_program" />
           <div className="md:mx-4 lg:mx-10 flex flex-col justify-center xs:text-center md:text-left xs:my-5 md:my-0">
             <h1 className="md:text-xl lg:text-2xl mb-4 font-semibold xs:text-xl">
               Buddy Program
@@ -49,13 +42,7 @@ const TeamLast = () => {
               contribution with exciting giveaways.
             </p>
           </div>
-          <img
-            src={women}
-            alt="buddy_program"
-            data-aos="fade-left" // data-aos-offset="500"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-sine"
-          />
+          <img src={women} alt="buddy_program" />
         </div>
 
         {/* @3 */}
@@ -64,9 +51,6 @@ const TeamLast = () => {
             // src={training}
             src={teamPic}
             alt="buddy_program"
-            data-aos="fade-right" // data-aos-offset="500"
-            data-aos-duration="900"
-            data-aos-easing="ease-in-sine"
           />
           <div className="md:mx-4 lg:mx-10 flex flex-col justify-center xs:text-center md:text-left xs:my-5 md:my-0">
             <h1 className="md:text-xl lg:text-2xl mb-4 font-semibold xs:text-xl">

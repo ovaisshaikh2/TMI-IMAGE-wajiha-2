@@ -16,13 +16,13 @@ const VisionMission = () => {
               activity.
             </p>
           </div>
-          <div className="flex justify-center" data-aos="fade-left">
+          <div className="flex justify-center">
             <img src={vision} alt="vision" />
           </div>
         </div>
         {/* 2 */}
         <div className="lg:grid grid-cols-2 xs:mt-4 lg:mt-10 xs:flex flex-col">
-          <div className="flex justify-center" data-aos="fade-right">
+          <div className="flex justify-center">
             <img src={mission} alt="mission" />
           </div>
           <div className="flex flex-col justify-center text-[#919191] items-start lg:mr-32 xs:my-10 lg:mt-0 xs:mx-4 lg:mx-0">
@@ -42,7 +42,7 @@ const VisionMission = () => {
               activity.
             </p>
           </div>
-          <div className="flex justify-center" data-aos="fade-left">
+          <div className="flex justify-center">
             <img src={coreValue} alt="coreValue" />
           </div>
         </div>
