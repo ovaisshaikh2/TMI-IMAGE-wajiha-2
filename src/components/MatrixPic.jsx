@@ -10,7 +10,7 @@ const MatrixPic = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-
+  //update
   const images = [D1, D2, D3, D4, D5, D6];
 
   const handleImageClick = (src, index) => {
