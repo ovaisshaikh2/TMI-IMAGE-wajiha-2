@@ -8,12 +8,10 @@ const ElectionofDirectors = () => {
           ELECTION OF DIRECTORS
         </h1>
 
-        <a href="/election-of-directors/#">
-          <p>
-            Information will be posted in this category at the time of next
-            election of directors
-          </p>
-        </a>
+        <p>
+          Information will be posted in this category at the time of next
+          election of directors
+        </p>
       </div>
     </React.Fragment>
   );
