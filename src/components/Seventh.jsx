@@ -29,22 +29,22 @@ const Seventh = () => {
       static
     >
       <div className="event-carousel">
-        <Link to="/events-media/women-day">
+        <Link to="/events-media">
           <img className="flic-img" src={Events1} alt="Events1" />
         </Link>
       </div>
       <div className="event-carousel">
-        <Link to="/events-media/Designer-Retreat">
+        <Link to="/events-media">
           <img className="flic-img" src={Events2} alt="Events2" />
         </Link>
       </div>
       <div className="event-carousel">
-        <Link to="/events-media/breast-cancer">
+        <Link to="/events-media">
           <img className="flic-img" src={Events3} alt="Events3" />
         </Link>
       </div>
       <div className="event-carousel">
-        <Link to="/events-media/independence-day">
+        <Link to="/events-media">
           <img className="flic-img" src={Events4} alt="Events4" />
         </Link>
       </div>

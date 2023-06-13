@@ -20,13 +20,7 @@ const Second = (props) => {
       </div>
       <section className="grid lg:grid-cols-5 xs:grid-cols-1 h-auto xs:px-4 lg:px-0 lg:mx-0">
         {/* 1 */}
-        <div
-          className="order-1 col-span-3"
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-duration="800"
-          // data-aos-easing="ease-in-sine"
-        >
+        <div className="order-1 col-span-3">
           <img src={journey} alt="journey" />
         </div>
         {/* 2 */}

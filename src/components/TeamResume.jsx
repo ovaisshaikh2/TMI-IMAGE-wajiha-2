@@ -35,7 +35,7 @@ const TeamResume = ({ label, onChange, ...props }) => {
             />
           </div>
           {/* 2 */}
-          <div className="mb-2">
+          {/* <div className="mb-2">
             <label
               for="text"
               className="block mb-2 text-sm font-medium text-gray-900"
@@ -47,7 +47,7 @@ const TeamResume = ({ label, onChange, ...props }) => {
               className="bg-white border border-gray-300 text-gray-900 text-sm outline-none block w-full p-2.5"
               required
             />
-          </div>
+          </div> */}
           {/* 3 */}
           <div className="mb-2">
             <label
@@ -63,9 +63,9 @@ const TeamResume = ({ label, onChange, ...props }) => {
             />
           </div>
           {/* 4 */}
-          <div className="mb-2">
+          <div className="mb-0 col-span-2">
             <label
-              for="email"
+              for="Phone"
               className="block mb-2 text-sm font-medium text-gray-900"
             >
               Phone Number<span className="text-red-600">*</span>
@@ -77,7 +77,7 @@ const TeamResume = ({ label, onChange, ...props }) => {
             />
           </div>
           {/* 5 */}
-          <div className="mb-0 col-span-2">
+          <div className="mt-2 col-span-2">
             <label
               for="email"
               className="block mb-2 text-sm font-medium text-gray-900"
@@ -112,7 +112,7 @@ const TeamResume = ({ label, onChange, ...props }) => {
           </div>
 
           {/* checkbox */}
-          <div className="flex items-center mb-4 xs:mt-2 lg:mt-0">
+          {/* <div className="flex items-center mb-4 xs:mt-2 lg:mt-0">
             <input
               type="checkbox"
               value=""
@@ -125,10 +125,10 @@ const TeamResume = ({ label, onChange, ...props }) => {
               I accept the Privacy Policy.{" "}
               <span className="text-red-500">*</span>
             </label>
-          </div>
+          </div> */}
         </div>
-        <div className="col-start-2 grid justify-end contact-btn mb-10 xll:mx-[20rem] lg:mx-[10rem] xs:mx-[2rem]">
-          <Button value={"Submit"} {...props} buttonId="Contact Form"  />
+        <div className="col-start-2 grid justify-end contact-btn mb-10 xll:mx-[20rem] lg:mx-[10rem] xs:mx-[2rem] mt-2">
+          <Button value={"Submit"} {...props} buttonId="Contact Form" />
         </div>
       </div>
     </React.Fragment>

@@ -70,7 +70,7 @@ const ContactForm = (props) => {
           {/* 4 */}
           <div className="relative mb-4 col-span-1" data-te-input-wrapper-init>
             <input
-              type="email"
+              type="telephone"
               id="floating_outlined"
               className="peer block min-h-[auto] border border-gray-300 w-full px-3 py-[0.5rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-1"
               placeholder=" "
@@ -79,7 +79,7 @@ const ContactForm = (props) => {
               for="floating_outlined"
               class="absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-4 scale-75 top-2 z-10 origin-[0] bg-white px-2 peer-focus:px-2 peer-focus:text-gray-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:top-1/2 peer-focus:top-2 peer-focus:scale-75 peer-focus:-translate-y-4 left-2"
             >
-              Confirm Email Address<span className="text-red-600">*</span>
+              Phone Number<span className="text-red-600">*</span>
             </label>
           </div>
           {/* 5 */}

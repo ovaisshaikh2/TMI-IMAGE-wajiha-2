@@ -35,7 +35,7 @@ const TeamLast = () => {
             <p className="text-[#919191] xs:text-sm md:text-sm lg:text-base">
               As a company that truly believes in female empowerment, Image
               leaves no stone unturned when it comes to empowering and
-              celebrating women. Every year on International Women’s Day, we
+              celebrating women. Every year on the International Women’s Day, we
               organize a series of events designed to arm women with the tools
               they need to succeed in life; professionally, economically,
               mentally, and socially – whilst also celebrating their
