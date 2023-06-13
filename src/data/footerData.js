@@ -36,7 +36,7 @@ export const footerData = [
     ],
   },
   {
-    title: "Customer Care",
+    title: "Contact Us",
     content: [
       {
         li: "Get In Touch",
