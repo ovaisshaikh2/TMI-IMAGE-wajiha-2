@@ -5,7 +5,9 @@ import life from "../assets/Life at Image.png";
 
 const Fourth = (props) => {
   const navigate = useNavigate();
-
+  {
+    /* change */
+  }
   return (
     <React.Fragment>
       <section className="mb-8 xs:mb-10">
