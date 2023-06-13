@@ -28,8 +28,8 @@ const VisionMission = () => {
           <div className="flex flex-col justify-center text-[#919191] items-start lg:mr-32 xs:my-10 lg:mt-0 xs:mx-4 lg:mx-0">
             <h1 className="uppercase text-3xl mb-6 text-black">Mission</h1>
             <p>
-              Providing quality product that promotes commerce and industry with
-              an objective of contributing to the nation’s prosperity.
+              Providing quality products that promote commerce and industry with
+              the objective of contributing to the nation’s prosperity.
             </p>
           </div>
         </div>
@@ -37,10 +37,7 @@ const VisionMission = () => {
         <div className="lg:grid grid-cols-2 xs:flex flex-col-reverse">
           <div className="flex flex-col lg:justify-center text-[#919191] items-start lg:ml-32 xs:my-10 lg:mt-0 xs:mx-4 lg:mx-0">
             <h1 className="uppercase text-3xl mb-6 text-black">Core Value</h1>
-            <p>
-              Image is committed to strive for excellence in all areas of its
-              activity.
-            </p>
+            <p>We Believe in 3C’s: Commitment, Competence & Consistency.</p>
           </div>
           <div className="flex justify-center">
             <img src={coreValue} alt="coreValue" />

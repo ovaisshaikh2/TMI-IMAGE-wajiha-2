@@ -35,27 +35,27 @@ const Journey = () => {
             built stores across major cities in Pakistan that provide superior
             products both in terms of quality and design, with the value
             addition of selling ’Designer Clothing’ at affordable prices. Since
-            its entry into the retail design industry in July 2015, Image has
+            it entered the retail design industry in July 2015, Image has
             established itself as a high-quality fashion label in clothing in a
-            short span of time.
+            short period.
           </p>
           <br />
 
           <p className="text-start">
-            Commitment to excellence and creativity, has made Image one of the
-            most acclaimed household names amongst fashion brands. Image also
-            has a strong e-commerce presence, both nationally and
-            internationally, and in 2021, Image became the first Pakistani
-            seller to be officially listed on Amazon. Being included in the
-            seller’s list enabled Image to gain access to more than 400 million
-            consumers across the world.
+            Commitment to excellence and creativity has made Image one of the
+            most acclaimed household names among fashion brands. Image also has
+            a strong e-commerce presence, both nationally and internationally,
+            and in 2021, Image became the first Pakistani seller to be
+            officially listed on Amazon. Being included in the seller’s list
+            enabled Image to gain access to more than 400 million consumers
+            across the world.
           </p>
           <br />
 
           <p className="text-start">
             {" "}
-            On 21st February, 2022 Image received the Prime Minister’s
-            Excellence Award for its outstanding performance in e-commerce, in a
+            On 21st February 2022 Image received the Prime Minister’s Excellence
+            Award for its outstanding performance in e-commerce, in a
             prestigious ceremony held by the Ministry of Commerce in Islamabad.
             The brand has shown resilience in unprecedented times and continues
             to enjoy a strong growth trajectory post-pandemic.

@@ -66,8 +66,8 @@ const MissionCarousel = () => {
                   Mission
                 </h1>
                 <p className="text-center font-medium xs:text-sm ss:text-base">
-                  Providing quality product that promote commerce and industry
-                  with an objective of contributing to the nation’s prosperity.
+                  Providing quality products that promote commerce and industry
+                  with the objective of contributing to the nation’s prosperity.
                 </p>
               </div>
             </div>

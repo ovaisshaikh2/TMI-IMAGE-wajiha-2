@@ -36,6 +36,9 @@ const Second = (props) => {
               built stores across major cities in Pakistan that provide superior
               products both in terms of quality and design, with the value
               addition of selling ’Designer Clothing’ at affordable prices.
+              Since it entered the retail design industry in July 2015, Image
+              has established itself as a high-quality fashion label in clothing
+              in a short period.
             </p>
             <Button
               {...props}

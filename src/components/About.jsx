@@ -22,7 +22,7 @@ const About = () => {
           <p className="">
             Established in 1993, Image is a leading high-street fashion brand.
             Popularly known as Image in the fashion & retail landscape,
-            specialises in Schiffli embroidery in Pakistan, and embodies a
+            specializes in Schiffli embroidery in Pakistan, and embodies a
             distinctive aesthetic that blends heritage and innovation for the
             minimalist woman. It is celebrated for being the first retail brand
             to give Chikankari ensembles as a Ready-to-Wear offering.

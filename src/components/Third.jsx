@@ -14,7 +14,7 @@ const Third = (props) => {
         {/* 1 */}
         <div>
           <p className="font-medium lg:text-lg xs:text-sm flex justify-center mb-4 text-center xs:mx-8 lg:mx-0">
-            With a belief in honouring individuality, fashion and uniqueness, we
+            With a belief in honoring individuality, fashion, and uniqueness, we
             strive to cultivate a culture of innovation.
           </p>
           <div className="flex justify-center">
@@ -66,8 +66,8 @@ const Third = (props) => {
                   Mission
                 </h1>
                 <p className="text-center font-normal lg:text-sm xll:text-sm md:text-[13px]">
-                  Providing quality product that promotes commerce and industry
-                  with an objective of contributing to the nation’s prosperity.
+                  Providing quality products that promote commerce and industry
+                  with the objective of contributing to the nation’s prosperity.
                 </p>
               </div>
             </div>
