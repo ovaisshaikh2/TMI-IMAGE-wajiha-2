@@ -88,12 +88,10 @@ const TeamSecond = () => {
   return (
     <React.Fragment>
       <p className="text-[#919191] text-center xs:mx-4 md:mx-20 lg:mx-40 xs:text-sm lg:text-base my-10 lg:my-16 xsm:mx-80">
-        Established in 1993, Image is a leading high-street fashion brand.
-        Popularly known as Image in the fashion & retail landscape, specializes
-        in Schiffli embroidery in Pakistan, and embodies a distinctive aesthetic
-        that blends heritage and innovation for the minimalist woman. It is
-        celebrated for being the first retail brand to give Chikankari ensembles
-        as a Ready-to-Wear offering.
+        Established in 1993, Image symbolises elegance, cementing its status as
+        one of Pakistan’s leading fashion and retail companies. From being a
+        brand that sells unstitched fabric to beautiful ready-to-wear ensembles,
+        Image has grown from strength to strength.
       </p>
 
       <div>
