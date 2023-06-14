@@ -25,6 +25,7 @@ const About = () => {
             being a brand that sells unstitched fabric to beautiful
             ready-to-wear ensembles, Image has grown from strength to strength.
           </p>
+          <br></br>
           <p className="">
             With a strong presence across 5 tier-A cities in Pakistan and online
             global footprint, the brand has garnered widespread acclaim for its
@@ -33,6 +34,7 @@ const About = () => {
             Outstanding Performance in E-commerce", as it became the first
             seller on Amazon with a Pakistani ID.
           </p>
+          <br></br>
           <p className="">
             To meet the growing demand of unstitched fabric that gives women the
             freedom to stitch and style their outfits uniquely, the brand
@@ -41,6 +43,7 @@ const About = () => {
             Image effortlessly combines fashion-forward trends at affordable
             prices.
           </p>
+          <br></br>
           <p className="">
             With our Ready-to-Wear and unstitched collections, we cater to women
             across the globe who are looking for fashionable and chic attires
