@@ -3,7 +3,7 @@ import React from "react";
 const Board = () => {
   return (
     <React.Fragment>
-      <div className="text-[#737373] xs:my-4 xs:mx-4 lg:my-12 lg:mx-40 xsm:mx-80">
+      <div className="text-[#737373] xs:my-12 xs:mx-4 lg:my-12 lg:mx-40 xsm:mx-80">
         {/* <h1 className="md:text-3xl xs:text-xl md:mb-10 xs:mb-4 text-black text-center">
           BOARD OF DIRECTORS
         </h1> */}
