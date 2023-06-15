@@ -914,23 +914,35 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                         {/* {isDivOpen && <div>This is a div element</div>} */}
                         <ul className="investor-droplink text-sm ml-6 mt-4">
                           <li>
-                            <Link
-                              onClick={handleClickCloseMob}
-                              to="/about-us"
-                              className="dropdown-link text-white hover:text-black md:text-sm py-3"
-                            >
-                              Board of Directors
-                            </Link>
-                          </li>
-
-                          <li>
-                            <Link
-                              onClick={handleClickCloseMob}
-                              to="/about-us"
-                              className="dropdown-link text-white hover:text-black md:text-sm pb-0"
+                            <HashLink
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                              activeClass="active"
+                              onClick={() => {
+                                handleClickNavSection("vision");
+                              }}
+                              to="/about-us#vision-and-mission"
+                              className="dropdown-link text-white md:text-sm py-1"
                             >
                               Vision & Mission
-                            </Link>
+                            </HashLink>
+                          </li>
+                          <li>
+                            <HashLink
+                              spy={true}
+                              smooth={true}
+                              offset={-70}
+                              duration={500}
+                              onClick={() => {
+                                handleClickNavSection("board");
+                              }}
+                              to="/about-us#board-of-directors"
+                              className="dropdown-link text-white md:text-sm py-1"
+                            >
+                              Board of Directors
+                            </HashLink>
                           </li>
                         </ul>
                       </div>
