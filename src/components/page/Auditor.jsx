@@ -8,7 +8,7 @@ const Auditor = () => {
           AUDITOR
         </h1>
         {/* ------------------------------------------------- */}
-        <div className="relative overflow-x-auto">
+        {/* <div className="relative overflow-x-auto">
           <table className="w-full text-xs text-left text-gray-500 border-2 border-gray-100">
             <thead className="text-gray-700  bg-gray-50">
               <th
@@ -28,6 +28,15 @@ const Auditor = () => {
               <td className="xs:px-2 lg:px-6 py-4">Chartered Accountants</td>
             </tbody>
           </table>
+        </div> */}
+        <div>
+          {/* 1 */}
+          <div className="mb-4">
+            <h6 className="text-xl text-[#0284c7] font-medium">
+              M/s. Feroze Sharif Tariq & Co.
+            </h6>
+            <p className="text-[14px] text-[#eab308]">Chartered Accountants</p>
+          </div>
         </div>
       </div>
     </React.Fragment>

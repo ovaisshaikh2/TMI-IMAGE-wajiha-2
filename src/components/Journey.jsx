@@ -23,7 +23,7 @@ const Journey = () => {
           <div className="whitespace-nowrap absolute top-[50%] left-[50%] -translate-y-2/4 -translate-x-2/4 z-10 text-white text-center p-5">
             <h2 className="xs:text-base lg:text-4xl xl:text-6xl xl:leading-[5rem]">
               A JOURNEY
-              <br /> THOUGH DECADES
+              <br /> THROUGH DECADES
             </h2>
           </div>
         </div>
