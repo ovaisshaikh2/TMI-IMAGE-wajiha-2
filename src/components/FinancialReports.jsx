@@ -7,7 +7,7 @@ const FinancialReports = () => {
       <div className="md:grid lg:grid-cols-3 md:grid-cols-2">
         {/* @1 */}
         <div className="xs:text-center mb-6 lg:text-left">
-          <h5 className="text-[#0284c7] mb-2">Annual Reports:</h5>
+          <h5 className="text-[#0284c7] my-2">Annual Reports:</h5>
           <ul className="text-sm">
             <li className="py-1">
               Annual Reports 2022
