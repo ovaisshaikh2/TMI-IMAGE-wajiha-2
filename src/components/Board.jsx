@@ -96,9 +96,9 @@ const Board = () => {
             {/* 4 */}
             <div className="my-4">
               <h6 className="text-xl text-black font-medium">
-                Ms. Farnaz Ahmad
+                Mr. Jawed Ahmed Siddiqui
               </h6>
-              <p className="text-[14px] text-grey">Non Executive Director</p>
+              <p className="text-[14px] text-grey">Executive Director</p>
             </div>
             <hr />
           </div>
@@ -107,9 +107,9 @@ const Board = () => {
             {/* 5 */}
             <div className="mb-4">
               <h6 className="text-xl text-black font-medium">
-                Mr. Jawed Ahmed Siddiqui
+                Ms. Farnaz Ahmad
               </h6>
-              <p className="text-[14px] text-grey">Executive Director</p>
+              <p className="text-[14px] text-grey">Non Executive Director </p>
             </div>
             <hr />
             {/* 6 */}
