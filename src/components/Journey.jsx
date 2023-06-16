@@ -16,7 +16,7 @@ const Journey = () => {
           data-aos-easing="ease-in-sine"
         >
           <img
-            className="xs:h-[10rem] lg:h-auto object-none"
+            className="xs:h-[10rem] lg:h-auto "
             src={Journeyimg}
             alt="ourjouneybanner"
           />
