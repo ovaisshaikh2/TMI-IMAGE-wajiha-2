@@ -25,7 +25,7 @@ const SECP = () => {
             href="http://www.secp.gov.pk/complaintForm1.asp"
             target="_blank"
             rel="noreferrer"
-            className="text-[14px] text-[#e6e6fa]"
+            className="text-[14px] text-[#0000FF]"
           >
             http://www.secp.gov.pk/complaintForm1.asp
           </a>
