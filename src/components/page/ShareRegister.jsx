@@ -8,7 +8,7 @@ const ShareRegister = () => {
           SHARE REGISTRAR
         </h1>
         {/* ------------------------------------------------- */}
-        <div className="relative overflow-x-auto">
+        {/* <div className="relative overflow-x-auto">
           <table className="w-full text-xs text-left text-gray-500 border-2 border-gray-100">
             <thead className="text-gray-700  bg-gray-50">
               <th
@@ -21,7 +21,7 @@ const ShareRegister = () => {
                 Address
               </th>
             </thead>
-            {/* ---------------- */}
+
             <tbody className="bg-white">
               <td className="xs:px-2 lg:px-6 py-4 font-medium w-1/3 lg:whitespace-nowrap border-r-2 border-gray-100">
                 Hameed Majeed Associates (Pvt) Ltd
@@ -31,6 +31,14 @@ const ShareRegister = () => {
               </td>
             </tbody>
           </table>
+        </div> */}
+        <div className="mb-4">
+          <h6 className="text-xl text-[#0284c7] font-medium">
+            Hameed Majeed Associates (Pvt) Ltd
+          </h6>
+          <p className="text-[14px] text-[#eab308]">
+            4th Floor, Karachi Chambers, Hasrat Mohani Road, Karachi.
+          </p>
         </div>
       </div>
     </React.Fragment>
