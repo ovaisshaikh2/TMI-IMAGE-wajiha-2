@@ -33,10 +33,8 @@ const LegalAdvisor = () => {
         <div>
           {/* 1 */}
           <div className="mb-4">
-            <h6 className="text-xl text-[#0284c7] font-medium">
-              M. Haseeb Jamali
-            </h6>
-            <p className="text-[14px] text-[#eab308]">LL.M</p>
+            <h6 className="text-xl text-black font-medium">M. Haseeb Jamali</h6>
+            <p className="text-[14px] text-grey">LL.M</p>
           </div>
         </div>
       </div>

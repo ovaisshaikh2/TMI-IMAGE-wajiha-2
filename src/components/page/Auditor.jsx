@@ -32,10 +32,10 @@ const Auditor = () => {
         <div>
           {/* 1 */}
           <div className="mb-4">
-            <h6 className="text-xl text-[#0284c7] font-medium">
+            <h6 className="text-xl text-black font-medium">
               M/s. Feroze Sharif Tariq & Co.
             </h6>
-            <p className="text-[14px] text-[#eab308]">Chartered Accountant</p>
+            <p className="text-[14px] text-grey">Chartered Accountant</p>
           </div>
         </div>
       </div>

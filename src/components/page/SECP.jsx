@@ -18,14 +18,14 @@ const SECP = () => {
           http://www.secp.gov.pk/complaintForm1.asp
         </a> */}
         <div className="mb-4">
-          <h6 className="text-xl text-[#0284c7] font-medium">
+          <h6 className="text-xl text-black font-medium">
             SECP Investor Complaint Link:
           </h6>
           <a
             href="http://www.secp.gov.pk/complaintForm1.asp"
             target="_blank"
             rel="noreferrer"
-            className="text-[14px] text-[#eab308]"
+            className="text-[14px] text-[#e6e6fa]"
           >
             http://www.secp.gov.pk/complaintForm1.asp
           </a>

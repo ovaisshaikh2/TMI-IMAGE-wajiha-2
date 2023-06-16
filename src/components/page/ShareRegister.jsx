@@ -33,10 +33,10 @@ const ShareRegister = () => {
           </table>
         </div> */}
         <div className="mb-4">
-          <h6 className="text-xl text-[#0284c7] font-medium">
+          <h6 className="text-xl text-black font-medium">
             Hameed Majeed Associates (Pvt) Ltd
           </h6>
-          <p className="text-[14px] text-[#eab308]">
+          <p className="text-[14px] text-grey">
             4th Floor, Karachi Chambers, Hasrat Mohani Road, Karachi.
           </p>
         </div>

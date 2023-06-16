@@ -72,41 +72,33 @@ const Board = () => {
           <div>
             {/* 1 */}
             <div className="mb-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                S. Hussam Subzwari
-              </h6>
-              <p className="text-[14px] text-[#eab308]">
-                Non Executive Chairman/Independent Director
-              </p>
+              <h6 className="text-xl text-black font-medium">Mr. Asad Ahmad</h6>
+              <p className="text-[14px] text-grey">Chief Executive Officer</p>
             </div>
             <hr />
 
             {/* 2 */}
             <div className="my-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Mr. Asad Ahmad
-              </h6>
-              <p className="text-[14px] text-[#eab308]">Chief Executive</p>
+              <h6 className="text-xl text-black font-medium">Ms. Uzma Ahmad</h6>
+              <p className="text-[14px] text-grey">Executive Director</p>
             </div>
             <hr />
 
             {/* 3 */}
             <div className="my-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Ms. Farnaz Ahmad
+              <h6 className="text-xl text-black font-medium">
+                Ms. Marium Ahmad
               </h6>
-              <p className="text-[14px] text-[#eab308]">
-                Non Executive Director
-              </p>
+              <p className="text-[14px] text-grey">Executive Director</p>
             </div>
             <hr />
 
             {/* 4 */}
             <div className="my-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Ms. Uzma Ahmad
+              <h6 className="text-xl text-black font-medium">
+                Ms. Farnaz Ahmad
               </h6>
-              <p className="text-[14px] text-[#eab308]">Executive Director</p>
+              <p className="text-[14px] text-grey">Non Executive Director</p>
             </div>
             <hr />
           </div>
@@ -114,26 +106,28 @@ const Board = () => {
           <div>
             {/* 5 */}
             <div className="mb-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Ms. Marium Ahmad
+              <h6 className="text-xl text-black font-medium">
+                Mr. Jawed Ahmed Siddiqui
               </h6>
-              <p className="text-[14px] text-[#eab308]">Executive Director</p>
+              <p className="text-[14px] text-grey">Executive Director</p>
             </div>
             <hr />
             {/* 6 */}
             <div className="my-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Mr. Jawed Ahmed Siddiqui
+              <h6 className="text-xl text-black font-medium">
+                Mr. M. Ziyad A. Syed
               </h6>
-              <p className="text-[14px] text-[#eab308]">Executive Director</p>
+              <p className="text-[14px] text-grey">Independent Director</p>
             </div>
             <hr />
             {/* 7 */}
             <div className="my-4">
-              <h6 className="text-xl text-[#0284c7] font-medium">
-                Mr. M. Ziyad A. Syed
+              <h6 className="text-xl text-black font-medium">
+                S. Hussam Subzwari
               </h6>
-              <p className="text-[14px] text-[#eab308]">Independent Director</p>
+              <p className="text-[14px] text-grey">
+                Non Executive Chairman/Independent
+              </p>
             </div>
             <hr />
           </div>
