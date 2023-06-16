@@ -35,7 +35,7 @@ const Auditor = () => {
             <h6 className="text-xl text-[#0284c7] font-medium">
               M/s. Feroze Sharif Tariq & Co.
             </h6>
-            <p className="text-[14px] text-[#eab308]">Chartered Accountants</p>
+            <p className="text-[14px] text-[#eab308]">Chartered Accountant</p>
           </div>
         </div>
       </div>
