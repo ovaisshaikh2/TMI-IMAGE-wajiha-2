@@ -1,0 +1,8 @@
+.wd {
+  width: 215px;
+}
+
+.df {
+  display: flex;
+  justify-content: space-between;
+}
