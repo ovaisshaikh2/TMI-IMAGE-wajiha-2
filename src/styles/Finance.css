@@ -1,7 +1,11 @@
 .wd {
   width: 215px;
 }
-
+@media (max-width: 767px) {
+  .wd {
+    margin: auto;
+  }
+}
 .df {
   display: flex;
   justify-content: space-between;
