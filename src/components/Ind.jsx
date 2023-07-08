@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import D1 from "../assets/independence/15.jpg";
+import D1 from "../assets/independence/groupind.jpg";
 import D2 from "../assets/independence/21.jpg";
 
 const Ind = () => {
