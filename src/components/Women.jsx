@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import D1 from "../assets/women/19.jpg";
-import D2 from "../assets/women/22.jpg";
-import D3 from "../assets/women/23.jpg";
-import D4 from "../assets/women/24.jpg";
+import D1 from "../assets/women/w1.jpg";
+import D2 from "../assets/women/w2.jpg";
+import D3 from "../assets/women/w3.jpg";
+import D4 from "../assets/women/w4.jpg";
 
 const Women = () => {
   const [showModal, setShowModal] = useState(false);
