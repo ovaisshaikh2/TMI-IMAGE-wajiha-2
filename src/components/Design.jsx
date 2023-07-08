@@ -1,12 +1,13 @@
 import React, { useState } from "react";
-import D1 from "../assets/designers Retreat/4.jpg";
+import D1 from "../assets/designers Retreat/2.jpg";
+import D2 from "../assets/designers Retreat/3.jpg";
 
 const Design = () => {
   const [showModal, setShowModal] = useState(false);
   const [modalImageSrc, setModalImageSrc] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [D1];
+  const images = [D1, D2];
 
   const handleImageClick = (src, index) => {
     setModalImageSrc(src);
