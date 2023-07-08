@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import D1 from "../assets/independence/groupind.jpg";
-import D2 from "../assets/independence/21.jpg";
+import D2 from "../assets/independence/groupind2.jpg";
 
 const Ind = () => {
   const [showModal, setShowModal] = useState(false);
