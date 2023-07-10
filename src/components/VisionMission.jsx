@@ -1,7 +1,7 @@
 import React from "react";
 import vision from "../assets/Vision.png";
 import mission from "../assets/Mission.png";
-import coreValue from "../assets/Core Value.png";
+import coreValue from "../assets/Core Value.jpg";
 
 const VisionMission = () => {
   return (
