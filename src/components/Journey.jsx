@@ -29,36 +29,15 @@ const Journey = () => {
         </div>
         {/* 2 */}
         <div className="text-[#919191] my-12 lg:mx-[15rem] xs:mx-[2rem]">
-          <h1 className="text-3xl text-center my-8 text-black">OUR JOURNEY</h1>
+          <h1 className="text-3xl text-center my-8 text-black">
+            EXPANDING OUR FOOTPRINT ACROSS THE WORLD
+          </h1>
           <p className=" text-start">
-            Image capitalized on the changing retail landscape of Pakistan and
-            built stores across major cities in Pakistan that provide superior
-            products both in terms of quality and design, with the value
-            addition of selling ’Designer Clothing’ at affordable prices. Since
-            it entered the retail design industry in July 2015, Image has
-            established itself as a high-quality fashion label in clothing in a
-            short period.
-          </p>
-          <br />
-
-          <p className="text-start">
-            Commitment to excellence and creativity has made Image one of the
-            most acclaimed household names among fashion brands. Image also has
-            a strong e-commerce presence, both nationally and internationally,
-            and in 2021, Image became the first Pakistani seller to be
-            officially listed on Amazon. Being included in the seller’s list
-            enabled Image to gain access to more than 400 million consumers
-            across the world.
-          </p>
-          <br />
-
-          <p className="text-start">
-            {" "}
-            On 21st February 2022 Image received the Prime Minister’s Excellence
-            Award for its outstanding performance in e-commerce, in a
-            prestigious ceremony held by the Ministry of Commerce in Islamabad.
-            The brand has shown resilience in unprecedented times and continues
-            to enjoy a strong growth trajectory post-pandemic.
+            Discover Image Pakistan’s enthralling collections across our eleven
+            stores, located within five major cities: Karachi, Lahore, Peshawar,
+            Rawalpindi, and Islamabad. As we scale to new heights by going
+            global, we bring our distinctive style and impeccable craftsmanship
+            closer to fashion aficionados around the country.
           </p>
         </div>
       </section>

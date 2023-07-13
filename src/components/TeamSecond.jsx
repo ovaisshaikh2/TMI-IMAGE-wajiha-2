@@ -87,11 +87,16 @@ const TeamSecond = () => {
   };
   return (
     <React.Fragment>
+      <h1 className="text-3xl text-center my-8 text-black">
+        AN ENSEMBLE OF PASSIONATE PROFESSIONALS OR TOGETHER FOR SUCCESS
+      </h1>
       <p className="text-[#919191] text-center xs:mx-4 md:mx-20 lg:mx-40 xs:text-sm lg:text-base my-10 lg:my-16 xsm:mx-80">
-        Established in 1993, Image symbolises elegance, cementing its status as
-        one of Pakistan’s leading fashion and retail companies. From being a
-        brand that sells unstitched fabric to beautiful ready-to-wear ensembles,
-        Image has grown from strength to strength.
+        At Image, our success is fuelled by an inclusive and accomplished team
+        of nearly 1.000 employees. From our artisan craftsmen and factory
+        personnel to our devoted retail associates and our managerial staff,
+        each member plays an indispensable role in the brand's expansion.
+        Together, we strive to offer the finest quality and immersive fashion
+        experiences for our customers around the world.
       </p>
 
       <div>
