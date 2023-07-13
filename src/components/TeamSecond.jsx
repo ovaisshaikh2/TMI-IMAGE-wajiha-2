@@ -88,7 +88,7 @@ const TeamSecond = () => {
   return (
     <React.Fragment>
       <h1 className="text-3xl text-center my-8 text-black">
-        AN ENSEMBLE OF PASSIONATE PROFESSIONALS OR TOGETHER FOR SUCCESS
+        AN ENSEMBLE OF PASSIONATE PROFESSIONALS
       </h1>
       <p className="text-[#919191] text-center xs:mx-4 md:mx-20 lg:mx-40 xs:text-sm lg:text-base my-10 lg:my-16 xsm:mx-80">
         At Image, our success is fuelled by an inclusive and accomplished team

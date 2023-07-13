@@ -52,9 +52,19 @@ const Fifth = (props) => {
           <div className="bg-[#f9f9f9] xs:p-4 lg:p-12 xm:p-10 xm:pr-20 xm:pl-5 xl:p-12 w-[100%] x2l:p-12 x2l:px-[3.5rem] ">
             <p className="text-[#454343] lg:text-sm mb-4 font-light xs:text-[.8rem]">
               For any business-related inquiries, we invite you to get in touch
-              with us. Click here to reach out, and our team will promptly cater
-              to your queries. We look forward to hearing from you. Let's
-              explore new horizons together and manifest our collective visions!
+              with us.{" "}
+              <a
+                className="text-light  text-sm hover:underline font-semibold"
+                value={"Contact Us"}
+                onClick={() => navigate("/get-in-touch")}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Click here
+              </a>{" "}
+              to reach out, and our team will promptly cater to your queries. We
+              look forward to hearing from you. Let's explore new horizons
+              together and manifest our collective visions!
             </p>
             <Button
               {...props}

@@ -10,8 +10,7 @@ const TeamDiversity = () => {
     <React.Fragment>
       <div className="xs:mx-4 xs:my-8 md:mx-10 md:my-10 lg:mx-40 lg:my-28 xs:mb-20">
         <h1 className="xs:text-xl md:text-2xl lg:text-3xl text-center font-medium lg:mb-6 xs:mb-4">
-          EMPOWERING FOR EXCELLENCE / UPLIFTING OUR PEOPLE / CHAMPIONING OUR
-          WORKFORCE
+          UPLIFTING OUR PEOPLE
         </h1>
 
         <p
