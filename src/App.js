@@ -25,6 +25,7 @@ import {
   BreastCancer,
   IndependenceDay,
   BoardOfDirectors,
+  CooperateSocial,
 } from "./components/page/index";
 
 function App() {
@@ -112,6 +113,7 @@ function App() {
           <Route path="/*" element={<PageNotFound />} />
 
           {/* Events-Media */}
+          <Route path="/events-media/CSR" element={<CooperateSocial />} />
           <Route
             path="/events-media/Designer-Retreat"
             element={<DesignersRetreat />}

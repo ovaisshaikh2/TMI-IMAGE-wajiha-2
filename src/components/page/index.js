@@ -5,7 +5,7 @@ import Events from "./Events";
 import GetInTouch from "./GetInTouch";
 import Career from "./Careers";
 import PageNotFound from "./PageNotFound";
-
+import CooperateSocial from "./CooperateSocial";
 import CorporateInformation from "./CorporateInformation";
 import FinancialStatement from "./FinancialStatement";
 import ShareRegister from "./ShareRegister";
@@ -48,4 +48,5 @@ export {
   BreastCancer,
   IndependenceDay,
   BoardOfDirectors,
+  CooperateSocial,
 };

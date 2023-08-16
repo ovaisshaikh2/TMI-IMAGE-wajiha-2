@@ -25,7 +25,7 @@ import Certificate from "./Certificate";
 import ShareTable from "./ShareTable";
 import FinancialReports from "./FinancialReports";
 import Eventsimg2 from "./Eventsimg2";
-
+import CSR from "./CSR";
 import Board from "./Board";
 import VisionMission from "./VisionMission";
 import Design from "./Design";
@@ -63,6 +63,7 @@ export {
   Certificate,
   ShareTable,
   FinancialReports,
+  CSR,
   Eventsimg2,
   Board,
   VisionMission,
