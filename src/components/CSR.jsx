@@ -79,7 +79,7 @@ const CSR = () => {
             </p>
           </div>
           {/* 2 */}
-          <div className="relative overflow-hidden bg-cover bg-no-repeat xs:-order-1 xs:mb-10">
+          <div className="relative overflow-hidden bg-cover bg-no-repeat xs:mb-10">
             <img
               className="h-full transition duration-300 ease-in-out hover:scale-110"
               src={CSRfour}
