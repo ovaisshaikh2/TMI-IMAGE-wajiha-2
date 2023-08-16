@@ -16,14 +16,12 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
   const [isDOpen, setIsDOpen] = useState(false);
   const [isDtOpen, setIsDtOpen] = useState(false);
   const [isDzOpen, setIsDzOpen] = useState(false);
-  const [isDeOpen, setIsDeOpen] = useState(false);
 
   const [activeLink, setActiveLink] = useState("home");
 
   const [showDiv, setShowDiv] = useState(false);
   const [showDivGov, setShowDivGov] = useState(false);
   const [showDivAbout, setShowDivAbout] = useState(false);
-  const [showDivEvent, setShowDivEvent] = useState(false);
 
   const countries = [
     { name: "Auditor", link: "/governance/auditor", file: "URL" },
@@ -373,9 +371,6 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
   const toggleDivAbout = () => {
     setShowDivAbout(!showDivAbout);
   };
-  const toggleDivEvent = () => {
-    setShowDivEvent(!showDivEvent);
-  };
 
   const handleClickCloseMob = () => {
     setIsOpen(false);
@@ -405,7 +400,6 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
       setShowDivAbout(false);
       setShowDiv(false);
       setShowDivGov(false);
-      setShowDivEvent(false);
     }
   }
 
@@ -419,9 +413,7 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
   const toggleDropdownzero = () => {
     setIsDzOpen(!isDzOpen);
   };
-  const toggleDropdownOne = () => {
-    setIsDeOpen(!isDeOpen);
-  };
+
   const Investor = () => {
     toggleDropdown();
     handleClick("investor");
@@ -569,6 +561,19 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                 Our Team
               </NavLink>
             </li>
+            {/* drop-3 - */}
+            <li
+              className={props.activeButton === "CSR" ? "active" : ""}
+              onClick={() => handleLinkClick("CSR")}
+            >
+              <NavLink
+                to="/CSR"
+                className="text-white md:text-xs lg:text-sm xl:text-base iconChecker"
+              >
+                CSR
+              </NavLink>
+            </li>
+            {/* --------------- */}
 
             {/* drop-1 - Investor Relations */}
             <li
@@ -715,35 +720,19 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
               </div>
             </li>
             {/* --------------- */}
-            {/* drop-3 - Governance */}
+            {/* drop-3 - */}
             <li
               className={
                 props.activeButton === "Events & Media" ? "active" : ""
               }
               onClick={() => handleLinkClick("Events & Media")}
             >
-              <div className="dropdown-2">
-                <NavLink
-                  to="/events-media"
-                  className="text-white md:text-xs lg:text-sm xl:text-base iconChecker"
-                >
-                  Events & Media
-                </NavLink>
-
-                <div className="dropdown-menu-2">
-                  <ul className="investor-droplink">
-                    <li>
-                      <Link
-                        onClick={handleClickClose}
-                        to="/events-media/CSR"
-                        className="dropdown-link text-white md:text-sm py-1"
-                      >
-                        Corporate Social Responsibility
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
+              <NavLink
+                to="/events-media"
+                className="text-white md:text-xs lg:text-sm xl:text-base iconChecker"
+              >
+                Events & Media
+              </NavLink>
             </li>
             {/* --------------- */}
 
@@ -1000,6 +989,19 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                     Our Team
                   </Link>
                 </li>
+                {/* -------------------------- */}
+                <li className="py-2.5" onClick={handleClickNav}>
+                  <Link
+                    onClick={handleClickCloseMob}
+                    to="/CSR"
+                    className="text-white text-base"
+                  >
+                    {/* <i className="fas fa-comments mr-2"></i> */}
+                    CSR
+                  </Link>
+                </li>
+
+                {/* -------------------------- */}
 
                 {/* ---------------------- */}
                 <li className="py-2.5" onClick={handleClickNav}>
@@ -1174,52 +1176,17 @@ function Navbar({ activeSection, setActiveSections, ...props }) {
                 </li>
 
                 {/* -------------------------- */}
-
                 <li className="py-2.5" onClick={handleClickNav}>
-                  <div className="dropdown-mob-Gov">
-                    <div
-                      className="flex justify-between"
-                      onClick={toggleDivEvent}
-                    >
-                      <div>
-                        <Link
-                          to="/events-media"
-                          className="text-white text-base"
-                        >
-                          {/* <i className="fa-solid fa-sitemap mr-2"></i> */}
-                          Events & Media
-                        </Link>
-                      </div>
-
-                      <div>
-                        {showDivEvent ? (
-                          <i
-                            className="fa fa-minus text-xs text-white"
-                            aria-hidden="true"
-                          ></i>
-                        ) : (
-                          <i className="fa-solid fa-plus text-xs text-white"></i>
-                        )}
-                      </div>
-                    </div>
-
-                    {showDivEvent && (
-                      <div className="dropdown-menu2">
-                        <ul className="text-sm ml-6 mt-4 investor-droplink ">
-                          <li>
-                            <Link
-                              onClick={handleClickCloseMob}
-                              to="/events-media/CSR"
-                              className="dropdown-link text-white hover:text-black md:text-sm py-2"
-                            >
-                              Corporate Social Responsibility
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    )}
-                  </div>
+                  <Link
+                    onClick={handleClickCloseMob}
+                    to="/events-media"
+                    className="text-white text-base"
+                  >
+                    {/* <i className="fas fa-comments mr-2"></i> */}
+                    Events & Media
+                  </Link>
                 </li>
+
                 {/* -------------------------- */}
 
                 <li className="py-2.5" onClick={handleClickNav}>

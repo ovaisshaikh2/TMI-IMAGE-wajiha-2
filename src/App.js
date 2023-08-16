@@ -113,7 +113,7 @@ function App() {
           <Route path="/*" element={<PageNotFound />} />
 
           {/* Events-Media */}
-          <Route path="/events-media/CSR" element={<CooperateSocial />} />
+          <Route path="/CSR" element={<CooperateSocial />} />
           <Route
             path="/events-media/Designer-Retreat"
             element={<DesignersRetreat />}

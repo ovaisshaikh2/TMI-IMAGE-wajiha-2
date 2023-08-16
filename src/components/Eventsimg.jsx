@@ -133,6 +133,30 @@ const Eventsimg = () => {
               </Link>
             </div>
           </div>
+          {/* 6 */}
+          <div className="row-span-2 relative overflow-hidden bg-cover bg-no-repeat xs:my-2 md:my-0">
+            <div className="w-full h-full transition duration-500 ease-in-out hover:scale-110 parent">
+              <Link
+                to="/events-media/independence-day"
+                onClick={handleClickNav}
+              >
+                <img
+                  className="w-full h-full"
+                  src={Independence}
+                  alt="independence_day"
+                />
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
+                <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
+                  <p className="text-white text-center xs:text-2xl xm:text-3xl mb-2">
+                    Independence Day
+                  </p>
+                  <button className="underline text-white md:text-xs xs:text-[10px] hover-underline-animation">
+                    View More
+                  </button>
+                </div>
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
