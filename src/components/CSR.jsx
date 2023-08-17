@@ -89,7 +89,7 @@ const CSR = () => {
         </div>
       </section>
       <section>
-        <div className="grid md:grid-cols-2 gap-1 mb-2 py-10 md:px-20 xs:px-5 items-center bg-slate-100">
+        <div className="grid md:grid-cols-2 gap-1 mb-2 py-10 md:px-20 xs:px-5 items-center bg-slate-100 web">
           <div className="relative overflow-hidden bg-cover bg-no-repeat">
             <img
               className="h-full w-50 transition duration-300 ease-in-out hover:scale-110 mx-auto"
@@ -113,6 +113,31 @@ const CSR = () => {
               succeed in a swiftly changing world.
             </p>
           </div>
+        </div>
+        <div className="grid md:grid-cols-2 gap-1 mb-2 py-10 md:px-20 xs:px-5 items-center bg-slate-100 mob">
+          <div className="relative overflow-hidden bg-cover bg-no-repeat">
+            <h2 className="md:text-[1.5rem] xs:text-[1.5rem]">
+              OUR COMMITMENT
+            </h2>
+            <p className=" text-start text-black md:text-[1.5rem] xs:text-[1rem]">
+              Moving forward, we continue to prioritise efforts geared towards
+              fostering the next wave of squash players, reaffirming our
+              commitment to advancing the vibrant sports culture in our
+              community. Beyond sports, we are ardent about furnishing an array
+              of pathways and opportunities for the youth to acquire knowledge,
+              evolve, and prosper. Our focus is on cultivating their inherent
+              abilities, arming them with the aptitudes they need to adapt and
+              succeed in a swiftly changing world.
+            </p>
+          </div>
+          <div className="relative overflow-hidden bg-cover bg-no-repeat">
+            <img
+              className="h-full w-50 transition duration-300 ease-in-out hover:scale-110 mx-auto"
+              src={CSRfive}
+              alt="CSR"
+            />
+          </div>
+          {/* 1 */}
         </div>
       </section>
     </React.Fragment>
