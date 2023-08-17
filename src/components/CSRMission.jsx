@@ -10,7 +10,7 @@ const CSRMission = () => {
             JOIN US IN OUR MISSION
           </h2>
         </div>
-        <div className="relative flex xs:h-[auto] lg:h-auto justify-center mx-20">
+        <div className="relative flex xs:h-[auto] lg:h-auto justify-center md:mx-20">
           <img
             className="xs:h-[auto] lg:h-auto"
             src={CSRsix}
