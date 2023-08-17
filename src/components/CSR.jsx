@@ -27,7 +27,7 @@ const CSR = () => {
         </div>
         {/* 2 */}
         <div className="text-[#919191] my-5 lg:mx-[15rem] xs:mx-[2rem]">
-          <p className=" text-center text-black mb-5">
+          <p className=" text-center text-black mb-5 font-light">
             At Image, we are wholeheartedly devoted to creating a positive
             difference in society <br></br>driven by an unwavering belief in the
             power of giving back.
@@ -58,7 +58,7 @@ const CSR = () => {
               />
             </div>
           </div>
-          <p className=" text-center text-black">
+          <p className=" text-center text-black font-light">
             Our comprehensive portfolio of corporate social responsibility (CSR)
             initiatives<br></br> exemplifies our drive towards fostering
             substantial change and enhancing the<br></br> well-being of
@@ -70,7 +70,7 @@ const CSR = () => {
         <div className="grid md:grid-cols-2 gap-1 mb-2 pt-10 md:px-20 xs:px-5 items-center">
           {/* 1 */}
           <div className="relative overflow-hidden bg-cover bg-no-repeat xs:mb-10">
-            <p className="text-start text-black md:text-[1.5rem] xs:text-[1rem]">
+            <p className="text-start text-black md:text-[1.5rem] xs:text-[1rem] md:pr-10 tracking-normal font-light">
               We have a long-standing tradition of bolstering sports development
               and nurturing budding potential talent. In testament to this
               legacy, we proudly sponsor squash championships, offering an
@@ -99,10 +99,10 @@ const CSR = () => {
           </div>
           {/* 1 */}
           <div className="relative overflow-hidden bg-cover bg-no-repeat">
-            <h2 className="md:text-[1.5rem] xs:text-[1.5rem]">
+            <h2 className="md:text-[2rem] md:mb-5 xs:text-[1.5rem]">
               OUR COMMITMENT
             </h2>
-            <p className=" text-start text-black md:text-[1.5rem] xs:text-[1rem]">
+            <p className=" text-start text-black md:text-[1.5rem] xs:text-[1rem] font-light">
               Moving forward, we continue to prioritise efforts geared towards
               fostering the next wave of squash players, reaffirming our
               commitment to advancing the vibrant sports culture in our
@@ -119,7 +119,7 @@ const CSR = () => {
             <h2 className="md:text-[1.5rem] xs:text-[1.5rem]">
               OUR COMMITMENT
             </h2>
-            <p className=" text-start text-black md:text-[1.5rem] xs:text-[1rem]">
+            <p className=" text-start text-black md:text-[1.5rem] xs:text-[1rem] font-light">
               Moving forward, we continue to prioritise efforts geared towards
               fostering the next wave of squash players, reaffirming our
               commitment to advancing the vibrant sports culture in our

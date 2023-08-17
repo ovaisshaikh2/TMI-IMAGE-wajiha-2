@@ -38,12 +38,13 @@ const HomeVideo = () => {
   return (
     <div className="mb-10">
       <video
+        className="mx-auto"
         ref={videoRef}
         autoPlay
         controls
         muted
         loop
-        src="https://cdn.shopify.com/videos/c/o/v/9c030b15d09f4228a0b9bb572a8d1b53.mp4"
+        src="https://cdn.shopify.com/videos/c/o/v/68a31f2b0f244416ada57dfbe5692025.mp4"
       ></video>
     </div>
   );

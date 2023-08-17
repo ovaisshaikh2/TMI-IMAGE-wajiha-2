@@ -10,22 +10,15 @@ const CSRMission = () => {
             JOIN US IN OUR MISSION
           </h2>
         </div>
-        <div
-          className="relative inline-block xs:h-[auto] lg:h-auto"
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-bottom"
-          data-aos-duration="500"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-        >
+        <div className="relative flex xs:h-[auto] lg:h-auto justify-center mx-20">
           <img
-            className="xs:h-[auto] lg:h-auto px-10"
+            className="xs:h-[auto] lg:h-auto"
             src={CSRsix}
             alt="ourjouneybanner"
           />
         </div>
         <div className="text-[#919191] my-5 lg:mx-[15rem] xs:mx-[2rem]">
-          <p className=" text-center text-black mb-10">
+          <p className=" text-center text-black mb-10 font-light">
             Collectively, we can illuminate the path towards a better future
             ensuring that every individual is afforded equitable access to
             exemplary education, opportunities for development, and the

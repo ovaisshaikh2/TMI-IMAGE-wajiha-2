@@ -36,8 +36,9 @@ const CSRVideo = () => {
   }, [isPlaying]);
 
   return (
-    <div className="mb-10">
+    <div className="my-10">
       <video
+        className="mx-auto"
         muted
         ref={videoRef}
         autoPlay
