@@ -54,3 +54,7 @@ body {
     display: none;
   }
 }
+
+.hv {
+  height: 500px;
+}

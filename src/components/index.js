@@ -33,7 +33,7 @@ import Women from "./Women";
 import MatrixPic from "./MatrixPic";
 import BCancer from "./BCancer";
 import Ind from "./Ind";
-
+import HomeSlider from "./HomeSlider";
 import GmailForm from "./GmailForm";
 
 export {
@@ -73,4 +73,5 @@ export {
   BCancer,
   Ind,
   GmailForm,
+  HomeSlider,
 };

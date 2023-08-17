@@ -1,11 +1,20 @@
 import React from "react";
-import { HomeVideo, Second, Third, Fourth, Fifth, Sixth } from "../index";
+import {
+  HomeSlider,
+  HomeVideo,
+  Second,
+  Third,
+  Fourth,
+  Fifth,
+  Sixth,
+} from "../index";
 
 const Home = (props) => {
   return (
     <React.Fragment>
+      <HomeSlider />
+      <Second />
       <HomeVideo />
-      <Second {...props} />
       <Third {...props} />
       <Fourth {...props} />
       <Fifth {...props} />

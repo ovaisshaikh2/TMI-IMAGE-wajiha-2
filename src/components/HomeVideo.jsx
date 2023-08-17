@@ -38,7 +38,7 @@ const HomeVideo = () => {
   return (
     <div className="mb-10">
       <video
-        className="mx-auto"
+        className="mx-auto my-10 hv"
         ref={videoRef}
         autoPlay
         controls

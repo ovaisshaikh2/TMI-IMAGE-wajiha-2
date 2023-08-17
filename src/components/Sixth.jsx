@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { Button, Seventh } from "./index";
 import Events1 from "../assets/Events at Image-1.png";
 import Events2 from "../assets/Events at Image-2.png";
-import Events3 from "../assets/Events at Image-3.png";
+import Events3 from "../assets/Indnew1.png";
 import Events4 from "../assets/Events at Image-4.png";
 
 const Sixth = (props) => {

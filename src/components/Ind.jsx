@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import D1 from "../assets/independence/groupind.jpg";
-import D2 from "../assets/independence/groupind22.jpg";
 import D3 from "../assets/independence/indnew1.jpg";
 import D4 from "../assets/independence/indnew2.jpg";
 import D5 from "../assets/independence/indnew3.jpg";
@@ -12,7 +10,7 @@ const Ind = () => {
   const [modalImageSrc, setModalImageSrc] = useState("");
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  const images = [D1, D2, D3, D4, D5, D6, D7];
+  const images = [D3, D4, D5, D6, D7];
 
   const handleImageClick = (src, index) => {
     setModalImageSrc(src);
