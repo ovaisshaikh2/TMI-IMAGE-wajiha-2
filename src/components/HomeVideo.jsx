@@ -36,9 +36,9 @@ const HomeVideo = () => {
   }, [isPlayingHome]);
 
   return (
-    <div className="mb-10">
+    <div className="video">
       <video
-        className="mx-auto my-10 hv"
+        className="mx-auto md:mt-10 xs:mt-4 hv"
         ref={videoRef}
         autoPlay
         controls

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Flickity from "react-flickity-component";
 import Events1 from "../assets/Events at Image-1.png";
 import Events2 from "../assets/Events at Image-2.png";
-import Events3 from "../assets/Events at Image-3.png";
+import Events3 from "../assets/Indnew1.png";
 import Events4 from "../assets/Events at Image-4.png";
 
 import "../styles/flickity.css";

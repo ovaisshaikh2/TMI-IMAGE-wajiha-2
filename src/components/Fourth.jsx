@@ -23,9 +23,13 @@ const Fourth = (props) => {
 
               <div className="bg-[#f9f9f9] xs:p-4 lg:p-12 xm:p-10 xm:pr-20 xm:pl-5 xl:p-12 lg:w-[99%] x2l:p-12 x2l:px-[3.5rem] ">
                 <p className="text-[#454343] lg:text-sm mb-4 font-light xs:text-[.8rem]">
-                  Join our family of enthusiasts where individuals are polished
-                  to have a promising growth and excellence in their future
-                  endeavors.
+                  Experience a world where artistry and ardour intertwine
+                  seamlessly, exclusively at Image. Being part of our team means
+                  you'll be joining forces with skilled visionaries, committed
+                  to defying conventions and transforming Pakistani fashion. As
+                  trailblazers at image, every day presents a fresh opportunity
+                  to advance and innovate, as you and make valuable
+                  contributions towards our dynamic brand.
                 </p>
                 <Button
                   {...props}

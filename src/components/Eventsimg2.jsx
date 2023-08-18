@@ -2,7 +2,7 @@ import React from "react";
 import DesignerRetreat from "../assets/Rectangle 106.png";
 import MothersDay from "../assets/Rectangle 112.png";
 //
-import Indnew from "../assets/independence/indnew5.jpg";
+import Indnew from "../assets/699.png";
 import Matrix2 from "../assets/matrix2.0.jpg";
 import Cancer2 from "../assets/Cancer awareness2.0.jpg";
 //
@@ -18,6 +18,11 @@ const Eventsimg2 = () => {
         <h1 className="xs:text-xl md:text-3xl lg:text-5xl text-center md:mb-10 md:mt-10 xs:mb-5 font-medium">
           EVENTS & MEDIA
         </h1>
+        <p className="text-center mb-8">
+          At Image, we embrace events within - and extending beyond - the realm
+          of fashion.<br></br> Explore this section for press coverage, brand
+          milestones and community involvement.
+        </p>
 
         {/*  */}
         {/* grid-rows-3  */}

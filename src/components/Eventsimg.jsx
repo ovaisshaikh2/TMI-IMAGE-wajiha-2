@@ -14,10 +14,15 @@ const Eventsimg = () => {
   };
   return (
     <React.Fragment>
-      <div className="mt-8">
+      <div className="my-8">
         <h1 className="xs:text-xl md:text-3xl lg:text-5xl text-center md:mb-10 md:mt-10 xs:mb-5 font-medium">
           EVENTS & MEDIA
         </h1>
+        <p className="text-center mb-8">
+          At Image, we embrace events within - and extending beyond - the realm
+          of fashion. Explore this section for press coverage, brand milestones
+          and community involvement.
+        </p>
 
         {/*  */}
         <div className="sm:grid grid-cols-2 xs:mx-[1rem] md:mx-[5rem] lg:mx-[12rem] xm:mx-[15rem] xs:gap-2 md:gap-5 grid-rows-3 mb-10">

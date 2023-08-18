@@ -182,3 +182,10 @@ https://flickity.metafizzy.co
     width: 26% !important;
   }
 }
+
+@media (max-width: 767px) {
+  .flickity-prev-next-button {
+    width: 24px !important;
+    height: 24px !important;
+  }
+}

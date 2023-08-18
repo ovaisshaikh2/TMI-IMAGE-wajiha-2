@@ -53,8 +53,7 @@ body {
   .mob {
     display: none;
   }
-}
-
-.hv {
-  height: 500px;
+  .hv {
+    height: 500px;
+  }
 }

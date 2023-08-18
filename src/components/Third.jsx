@@ -10,7 +10,7 @@ const Third = (props) => {
 
   return (
     <React.Fragment>
-      <section className="text-[#737373] lg:mx-16 lg:my-16 xs:my-4">
+      <section className="text-[#737373] lg:mx-16 lg:mb-16 lg:mt-8 xs:my-4">
         {/* 1 */}
         <div>
           <p className="font-medium lg:text-lg xs:text-sm flex justify-center mb-4 text-center xs:mx-8 lg:mx-0">
