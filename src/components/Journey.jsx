@@ -29,7 +29,7 @@ const Journey = () => {
         </div>
         <div className="text-[#919191] my-12 lg:mx-[15rem] xs:mx-[2rem]">
           <h1 className="text-3xl text-center my-8 text-black">OUR JOURNEY</h1>
-          <p className=" text-start">
+          <p className=" text-start xs:text-[1rem]">
             Image capitalized on the changing retail landscape of Pakistan and
             built stores across major cities in Pakistan that provide superior
             products both in terms of quality and design, with the value
@@ -52,7 +52,7 @@ const Journey = () => {
           <h1 className="text-3xl text-center my-8 text-black">
             EXPANDING OUR FOOTPRINT ACROSS THE WORLD
           </h1>
-          <p className=" text-start">
+          <p className=" text-start xs:text-[1rem]">
             Discover Image Pakistan’s enthralling collections across our eleven
             stores, located within five major cities: Karachi, Lahore, Peshawar,
             Rawalpindi, and Islamabad. As we scale to new heights by going
