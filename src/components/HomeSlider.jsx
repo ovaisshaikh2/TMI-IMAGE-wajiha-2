@@ -4,7 +4,7 @@ import Slide1 from "../assets/HomeSlider/s1.jpg";
 import Slide2 from "../assets/HomeSlider/s2.jpg";
 import Slide3 from "../assets/HomeSlider/s3.jpg";
 import Slide4 from "../assets/HomeSlider/s4.jpg";
-import mSlide1 from "../assets/HomeSlider/ms1.jpg";
+import mSlide1 from "../assets/HomeSlider/ms1.png";
 import mSlide2 from "../assets/HomeSlider/ms2.jpg";
 import mSlide3 from "../assets/HomeSlider/ms3.jpg";
 import mSlide4 from "../assets/HomeSlider/ms4.jpg";

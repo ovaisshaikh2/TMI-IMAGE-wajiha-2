@@ -1,5 +1,8 @@
 import React from "react";
 import Journeyimg from "../assets/Mask Group 29.png";
+import J1 from "../assets/j1.png";
+import J2 from "../assets/j2.png";
+import J3 from "../assets/j3.png";
 
 const Journey = () => {
   return (
@@ -57,8 +60,37 @@ const Journey = () => {
             stores, located within five major cities: Karachi, Lahore, Peshawar,
             Rawalpindi, and Islamabad. As we scale to new heights by going
             global, we bring our distinctive style and impeccable craftsmanship
-            closer to fashion aficionados around the country.
+            closer to fashion aficionados around the country.<br></br>
+            <br></br> Image Pakistan has exclusive online stores in the top
+            countries across the globe, such as:<br></br> UK 🇬🇧, USA 🇺🇸, and UAE
+            🇦🇪
           </p>
+          <div className="grid md:grid-cols-3 gap-2 my-5">
+            {/* 1 */}
+            <div className="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                src={J1}
+                alt="CSR"
+              />
+            </div>
+            {/* 2 */}
+            <div className="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                src={J2}
+                alt="CSR"
+              />
+            </div>
+            {/* 3 */}
+            <div className="relative overflow-hidden bg-cover bg-no-repeat">
+              <img
+                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                src={J3}
+                alt="CSR"
+              />
+            </div>
+          </div>
         </div>
       </section>
     </React.Fragment>
