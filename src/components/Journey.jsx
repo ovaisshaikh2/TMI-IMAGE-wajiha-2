@@ -74,7 +74,7 @@ const Journey = () => {
             {/* 1 */}
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
-                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                className="h-full w-full transition duration-300 ease-in-out hover:scale-110"
                 src={J1}
                 alt="CSR"
               />
@@ -82,7 +82,7 @@ const Journey = () => {
             {/* 2 */}
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
-                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                className="h-full w-full transition duration-300 ease-in-out hover:scale-110"
                 src={J2}
                 alt="CSR"
               />
@@ -90,7 +90,7 @@ const Journey = () => {
             {/* 3 */}
             <div className="relative overflow-hidden bg-cover bg-no-repeat">
               <img
-                className="h-full transition duration-300 ease-in-out hover:scale-110"
+                className="h-full w-full transition duration-300 ease-in-out hover:scale-110"
                 src={J3}
                 alt="CSR"
               />
