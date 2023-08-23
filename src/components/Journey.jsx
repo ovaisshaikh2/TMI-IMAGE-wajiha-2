@@ -3,6 +3,9 @@ import Journeyimg from "../assets/Mask Group 29.png";
 import J1 from "../assets/j1.png";
 import J2 from "../assets/j2.png";
 import J3 from "../assets/j3.png";
+import f1 from "../assets/UK.png";
+import f2 from "../assets/USA.png";
+import f3 from "../assets/UAE.png";
 
 const Journey = () => {
   return (
@@ -55,15 +58,17 @@ const Journey = () => {
           <h1 className="text-3xl text-center my-8 text-black">
             EXPANDING OUR FOOTPRINT ACROSS THE WORLD
           </h1>
-          <p className=" text-start xs:text-[1rem]">
+          <p className=" text-start xs:text-[1rem] ">
             Discover Image Pakistan’s enthralling collections across our eleven
             stores, located within five major cities: Karachi, Lahore, Peshawar,
             Rawalpindi, and Islamabad. As we scale to new heights by going
             global, we bring our distinctive style and impeccable craftsmanship
             closer to fashion aficionados around the country.<br></br>
             <br></br> Image Pakistan has exclusive online stores in the top
-            countries across the globe, such as:<br></br> UK 🇬🇧, USA 🇺🇸, and UAE
-            🇦🇪
+            countries across the globe, such as:<br></br> UK{" "}
+            <img src={f1} className="w-5 inline-block mb-1" />, USA{" "}
+            <img src={f2} className="w-5 inline-block mb-1" />, and UAE{" "}
+            <img src={f3} className="w-5 inline-block mb-1" />
           </p>
           <div className="grid md:grid-cols-3 gap-2 my-5">
             {/* 1 */}
