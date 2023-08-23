@@ -3,7 +3,7 @@ import { Form, Button } from "react-bootstrap";
 import { useForm, ValidationError } from "@formspree/react";
 
 const ContactForm = () => {
-  const [state, handleSubmit] = useForm("maygojdw");
+  const [state, handleSubmit] = useForm("mjvqwowj");
   if (state.succeeded) {
     return (
       <div className="text-center my-10">
@@ -27,7 +27,7 @@ const ContactForm = () => {
               <Form.Group controlId="fname">
                 <Form.Control
                   type="text"
-                  name="fname"
+                  name="firstname"
                   value={state.fname}
                   placeholder=" "
                   className="peer block min-h-[auto] border border-gray-300 w-full px-3 py-[0.5rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-1"
@@ -46,7 +46,7 @@ const ContactForm = () => {
               <Form.Group controlId="lname">
                 <Form.Control
                   type="text"
-                  name="lname"
+                  name="lastname"
                   value={state.lname}
                   className="peer block min-h-[auto] border border-gray-300 w-full px-3 py-[0.5rem] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 data-[te-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none [&:not([data-te-input-placeholder-active])]:placeholder:opacity-1"
                   placeholder=" "

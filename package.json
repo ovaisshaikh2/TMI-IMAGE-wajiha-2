@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "/",
   "dependencies": {
+    "@formspark/use-formspark": "^0.1.39",
     "@formspree/react": "^2.5.0",
     "@material-tailwind/react": "^1.4.2",
     "@react-navigation/drawer": "^6.6.2",
