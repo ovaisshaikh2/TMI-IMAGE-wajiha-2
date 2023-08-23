@@ -29,7 +29,7 @@ const MissionCarousel = () => {
       >
         {/* @1 */}
         <div>
-          <div className="border border-[#707070] h-[430px] grid mx-2">
+          <div className="border border-[#707070] h-[480px] grid mx-2">
             <div className="bg-[#D9D9D9] w-full xs:h-[67%] ssx:h-[60%] border border-b-[#707070]">
               <img
                 className="w-full xs:px-6 xs:pt-6 ssx:px-8 ssx:pt-8 xs:h-[141%] ssx:h-[154%]"
@@ -52,7 +52,7 @@ const MissionCarousel = () => {
         </div>
         {/* @2 */}
         <div>
-          <div className="border border-[#707070] h-[430px] grid mx-2">
+          <div className="border border-[#707070] h-[480px] grid mx-2">
             <div className="bg-[#D9D9D9] w-full xs:h-[67%] ssx:h-[60%] border border-b-[#707070]">
               <img
                 className="w-full xs:px-6 xs:pt-6 ssx:px-8 ssx:pt-8 xs:h-[141%] ssx:h-[154%]"
@@ -75,7 +75,7 @@ const MissionCarousel = () => {
         </div>
         {/* @3 */}
         <div>
-          <div className="border border-[#707070] h-[430px] grid mx-2">
+          <div className="border border-[#707070] h-[480px] grid mx-2">
             <div className="bg-[#D9D9D9] w-full xs:h-[67%] ssx:h-[60%] border border-b-[#707070]">
               <img
                 className="w-full xs:px-6 xs:pt-6 ssx:px-8 ssx:pt-8 xs:h-[141%] ssx:h-[154%]"
