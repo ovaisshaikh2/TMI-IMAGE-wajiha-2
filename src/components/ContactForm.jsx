@@ -113,7 +113,11 @@ const ContactForm = () => {
             </div>
 
             <div className="col-start-2 grid justify-end contact-btn">
-              <Button type="submit" buttonId="Contact Form">
+              <Button
+                type="submit"
+                buttonId="Contact Form"
+                className="bg-black text-white py-2"
+              >
                 Submit
               </Button>
             </div>
