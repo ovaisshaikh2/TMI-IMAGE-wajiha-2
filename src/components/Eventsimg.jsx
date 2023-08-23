@@ -5,6 +5,7 @@ import BreastCancer from "../assets/Rectangle 109.png";
 import Independence from "../assets/Rectangle 111.png";
 import Indneww from "../assets/independence/indnew5.jpg";
 import Matrix2 from "../assets/matrix2.0.jpg";
+import Squash from "../assets/sq1.png";
 //
 import { Link } from "react-router-dom";
 
@@ -26,6 +27,23 @@ const Eventsimg = () => {
 
         {/*  */}
         <div className="sm:grid grid-cols-2 xs:mx-[1rem] md:mx-[5rem] lg:mx-[12rem] xm:mx-[15rem] xs:gap-2 md:gap-5 grid-rows-3 mb-10">
+          {/* 6 */}
+          <div className="row-span-2 relative overflow-hidden bg-cover bg-no-repeat xs:my-2 md:my-0">
+            <div className="w-full h-full transition duration-500 ease-in-out hover:scale-110 parent">
+              <Link to="/events-media/squash" onClick={handleClickNav}>
+                <img className="w-full h-full" src={Squash} alt="Squash" />
+                <div className="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 z-10"></div>
+                <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20">
+                  <p className="text-white text-center xs:text-2xl xm:text-2xl mb-2">
+                    Hamza Khan - Squash Ceremony
+                  </p>
+                  <button className="underline text-white md:text-xs xs:text-[10px] hover-underline-animation">
+                    View More
+                  </button>
+                </div>
+              </Link>
+            </div>
+          </div>
           {/* 6 */}
           <div className="row-span-2 relative overflow-hidden bg-cover bg-no-repeat xs:my-2 md:my-0">
             <div className="w-full h-full transition duration-500 ease-in-out hover:scale-110 parent">

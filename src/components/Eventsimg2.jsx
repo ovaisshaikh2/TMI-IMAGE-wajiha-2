@@ -1,8 +1,8 @@
 import React from "react";
 import DesignerRetreat from "../assets/Rectangle 106.png";
 import MothersDay from "../assets/Rectangle 112.png";
-//
-import Indnew from "../assets/699.png";
+import Squash from "../assets/sq1.png";
+import Indnew from "../assets/independence/indnew5.jpg";
 import Matrix2 from "../assets/matrix2.0.jpg";
 import Cancer2 from "../assets/Cancer awareness2.0.jpg";
 //
@@ -27,20 +27,33 @@ const Eventsimg2 = () => {
         {/*  */}
         {/* grid-rows-3  */}
         <div className="sm:grid grid-cols-2 xs:mx-[1rem] md:mx-[5rem] lg:mx-[12rem] xm:mx-[15rem] xs:gap-2 md:gap-5 mb-10">
-          {/* 5 */}
-          {/* row-span-2 */}
-          <div className="col-span-2 relative overflow-hidden bg-cover bg-no-repeat xs:my-2 md:my-0">
+          {/* 0 */}
+          <div className="relative overflow-hidden bg-cover bg-no-repeat row-span-1 xs:my-2 md:my-0">
+            <div className="w-full h-full transition duration-1000 ease-in-out hover:scale-110 parent cursor-pointer">
+              <Link to="/events-media/squash" onClick={handleClickNav}>
+                <img className="w-full h-full" src={Squash} alt="squash" />
+                {/* bg-black bg-opacity-60*/}
+                <div className="absolute top-0 left-0 w-full h-full z-10 transition-opacity duration-500 ease-in-out hover:opacity-100 bgParent"></div>
+                <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20 transition-transform duration-500 ease-in-out hover:scale-110">
+                  <p className="text-white text-center xs:text-2xl xm:text-2xl mb-2 child2">
+                    Hamza Khan - Squash Ceremony
+                  </p>
+                  <button className="child text-white md:text-xs xs:text-[10px] hover-underline-animation">
+                    View More
+                  </button>
+                </div>
+              </Link>
+            </div>
+          </div>
+          {/* 0.1 */}
+          <div className="relative overflow-hidden bg-cover bg-no-repeat row-span-1 xs:my-2 md:my-0">
             <div className="w-full h-full transition duration-1000 ease-in-out hover:scale-110 parent cursor-pointer">
               <Link
                 to="/events-media/independence-day"
                 onClick={handleClickNav}
               >
-                <img
-                  className="w-full h-full"
-                  // src={Independence}
-                  src={Indnew}
-                  alt="independence_day"
-                />
+                <img className="w-full" src={Indnew} alt="independence_day" />
+                {/* bg-black bg-opacity-60*/}
                 <div className="absolute top-0 left-0 w-full h-full z-10 transition-opacity duration-500 ease-in-out hover:opacity-100 bgParent"></div>
                 <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center z-20 transition-transform duration-500 ease-in-out hover:scale-110">
                   <p className="text-white text-center xs:text-2xl xm:text-3xl mb-2 child2">

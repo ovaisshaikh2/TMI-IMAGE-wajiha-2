@@ -24,6 +24,7 @@ import {
   Matrix,
   BreastCancer,
   IndependenceDay,
+  Squashchamp,
   BoardOfDirectors,
   CooperateSocial,
 } from "./components/page/index";
@@ -129,6 +130,7 @@ function App() {
             path="/events-media/independence-day"
             element={<IndependenceDay />}
           />
+          <Route path="/events-media/squash" element={<Squashchamp />} />
         </Routes>
 
         <Footer />

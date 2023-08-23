@@ -16,7 +16,7 @@ import SECP from "./SECP";
 import LegalAdvisor from "./LegalAdvisor";
 import PatternShare from "./PatternShare";
 import Auditor from "./Auditor";
-
+import Squashchamp from "./Squashchamp";
 import DesignersRetreat from "./DesignersRetreat";
 import WomensDay from "./WomensDay";
 import Matrix from "./Matrix";
@@ -49,4 +49,5 @@ export {
   IndependenceDay,
   BoardOfDirectors,
   CooperateSocial,
+  Squashchamp,
 };
