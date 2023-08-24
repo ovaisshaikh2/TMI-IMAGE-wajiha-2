@@ -90,7 +90,12 @@ const TeamResume = () => {
                 name="resume"
                 required
               />
-              <button type="submit">Upload and Send</button>
+              <button
+                type="submit"
+                className="text-white bg-black py-1 px-4 rounded"
+              >
+                Upload and Send
+              </button>
             </div>
           </div>
         </div>
