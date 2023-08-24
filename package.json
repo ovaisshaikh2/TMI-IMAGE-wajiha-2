@@ -2,7 +2,7 @@
   "name": "image",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "https://imagepakistan.net/",
   "dependencies": {
     "@formspark/use-formspark": "^0.1.39",
     "@formspree/react": "^2.5.0",
