@@ -1,8 +1,8 @@
 import React, { useRef, useEffect, useState } from "react";
 
-const HomeVideo = () => {
+const CSRVideo1 = () => {
   const videoRef = useRef(null);
-  const [isPlayingHome, setIsPlayingHome] = useState(true);
+  const [isPlaying, setIsPlaying] = useState(true);
 
   useEffect(() => {
     const video = videoRef.current;
@@ -12,9 +12,9 @@ const HomeVideo = () => {
       const videoBottom = video.getBoundingClientRect().bottom;
 
       if (videoTop <= window.innerHeight && videoBottom >= 0) {
-        setIsPlayingHome(true);
+        setIsPlaying(true);
       } else {
-        setIsPlayingHome(false);
+        setIsPlaying(false);
       }
     };
 
@@ -28,26 +28,27 @@ const HomeVideo = () => {
   useEffect(() => {
     const video = videoRef.current;
 
-    if (isPlayingHome) {
+    if (isPlaying) {
       video.play();
     } else {
       video.pause();
     }
-  }, [isPlayingHome]);
+  }, [isPlaying]);
 
   return (
-    <div className="video">
+    <div className="my-10">
       <video
-        className="mx-auto md:mt-10 xs:mt-4 hv"
+        className="mx-auto"
+        muted
         ref={videoRef}
         autoPlay
-        controls
-        muted
         loop
-        src="https://cdn.shopify.com/videos/c/o/v/73b34c830e484aafb93e1f01404e517e.mp4"
+        controls
+        src="https://cdn.shopify.com/videos/c/o/v/dd6ef017f98847f3b85886b595c14498.mp4"
       ></video>
+      {/* <div style={{ height: "50px" }}></div>  */}
     </div>
   );
 };
 
-export default HomeVideo;
+export default CSRVideo1;
