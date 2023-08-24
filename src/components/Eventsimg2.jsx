@@ -3,7 +3,7 @@ import DesignerRetreat from "../assets/Rectangle 106.png";
 import MothersDay from "../assets/Rectangle 112.png";
 import Squash from "../assets/sq1.png";
 import Indnew from "../assets/independence/indnew5.jpg";
-import Matrix2 from "../assets/matrix2.0.jpg";
+import Matrix2 from "../assets/matrix/mateve.jpg";
 import Cancer2 from "../assets/Cancer awareness2.0.jpg";
 //
 import { Link } from "react-router-dom";

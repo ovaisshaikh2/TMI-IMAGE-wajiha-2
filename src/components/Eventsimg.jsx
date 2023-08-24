@@ -4,7 +4,7 @@ import MothersDay from "../assets/Rectangle 112.png";
 import BreastCancer from "../assets/Rectangle 109.png";
 import Independence from "../assets/Rectangle 111.png";
 import Indneww from "../assets/independence/indnew5.jpg";
-import Matrix2 from "../assets/matrix2.0.jpg";
+import Matrix2 from "../assets/matrix/mateve.jpg";
 import Squash from "../assets/sq1.png";
 //
 import { Link } from "react-router-dom";
